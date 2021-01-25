@@ -6,14 +6,15 @@ use Illuminate\View\Component;
 
 class master extends Component
 {
+    public $metaTagsSeo;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($metaTagsSeo)
     {
-        //
+        $this->metaTagsSeo = $metaTagsSeo;
     }
 
     /**

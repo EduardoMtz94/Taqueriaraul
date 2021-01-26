@@ -10004,6 +10004,78 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.lc-header .lc-head-promo p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #0FA30A;
+  font-weight: lighter !important;
+}
 .lc-header nav {
-  background-color: yellow;
+  background-color: #FFFF0B;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+  padding: 0 !important;
+}
+.lc-header nav ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #0FA30A;
+  font-weight: bold;
+  padding: 0 1rem !important;
+}
+.lc-header header {
+  background-image: url("/img/background-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 82vh;
+}
+.lc-header header .lc-height {
+  height: 82vh;
+}
+.lc-header header .lc-height h1 {
+  font-size: 68px;
+  color: #0FA30A;
+}
+.lc-header header .lc-height p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-right: 1.75rem;
+}
+.lc-header header .lc-height .lc-haz-tu-pedido {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 17rem;
+  bottom: 3rem;
+  text-align: center;
+  color: #0FA30A;
+}
+.lc-header header .lc-height .lc-haz-tu-pedido p {
+  font-size: 35px;
+}
+.lc-header header .lc-height .lc-haz-tu-pedido .arrow {
+  position: absolute;
+  left: 47%;
+  width: 40px;
+  height: 40px;
+  top: 85%;
+  margin: -20px 0 0 -20px;
+  transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #0FA30A solid;
+  border-bottom: 2px #0FA30A solid;
+}
+.lc-header header .lc-height .lc-haz-tu-pedido .arrow::before {
+  content: "";
+  position: absolute;
+  left: 35%;
+  width: 40px;
+  height: 40px;
+  top: 35%;
+  margin: -20px 0 0 -20px;
+  border-left: none;
+  border-top: none;
+  border-right: 2px #0FA30A solid;
+  border-bottom: 2px #0FA30A solid;
 }

@@ -12,7 +12,7 @@
         <nav class="navbar navbar-expand-lg lc-navbar-custom" id="lc-navbar">
             <div class="container">
                 <a href="/" class="navbar-brand">
-                    Logo de la taqueria
+                    <img src="{{ asset('img/logo-taqueria-raul.jpeg') }}" alt="Taqueria Raul Logo" height="90">
                 </a>
                 <button class="navbar-toggler float-right" id="lc-btn-navbar" type="button"
                     data-toggle="collapse" data-target="#lc-navbar" aria-label="hamburguer"
@@ -21,7 +21,7 @@
                 </button>
                 <div class="navbar-collapse collapse lc-navbar-menu" id="lc-navbar">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" class="text-decoration-none" href="/"
                                 id="btn-home">INICIO</a>
                         </li>
@@ -41,5 +41,20 @@
                 </div>
             </div>
         </nav>
+        <header>
+            <div class="container-xl">
+                <div class="row lc-height">
+                    <div class="col-md-6 align-self-center">
+                        <h1>TAQUER&Iacute;A RA&Uacute;L</h1>
+                        <p>Desde hace mas de 40 a&ntilde;os, somos representantes de una de las comidas m&aacute;s representativas de M&eacute;xico, 
+                            nos respalda la calidad en nuestros tacos, adem&aacute;s de un gran sabor que se disfruta en cada mordida. </p>
+                    </div>
+                    <div class="lc-haz-tu-pedido">
+                        <p>HAZ TU PEDIDO</p>
+                        <span class="arrow"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
     </section>
 </x-master>

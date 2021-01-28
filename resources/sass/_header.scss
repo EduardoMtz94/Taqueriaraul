@@ -3,22 +3,35 @@
         p {
             font-family: Arial, Helvetica, sans-serif;
             font-size: 18px;
-            color: #0FA30A;
+            color: $lc-rojo;
             font-weight: lighter !important;
         }
     }
     nav {
-        background-color: #FFFF0B;
+        background-color: $lc-background;
         box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
         padding: 0 !important;
+        transition: all 0.4ms ease-in-out;
         ul {
             li {
                 a {
                     text-decoration: none;
                     font-size: 24px;
-                    color: #0FA30A;
+                    color: $lc-rojo;
                     font-weight: bold;
                     padding: 0 1rem !important;
+                    &::before {
+                        content: "";
+                        display: block;
+                        height: 0.15rem;
+                        width: 110%;
+                        background-color: $lc-rojo;
+                        position: relative;
+                        transition: all ease-in 250ms;
+                        top: 2.1rem;
+                        left: -0.25rem;
+                        transition: all 0.4s ease-in-out;
+                    }
                 }
             }
         }
@@ -28,11 +41,13 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 82vh;
+        width: 100vw;
+        transition: all 0.4ms ease-in-out;
         .lc-height {
             height: 82vh;
             h1 {
                 font-size: 68px;
-                color: #0FA30A;
+                color: $lc-rojo;
             }
             p {
                 font-family: Arial, Helvetica, sans-serif;
@@ -40,29 +55,26 @@
                 padding-right: 1.75rem;
             }
             .lc-haz-tu-pedido {
-                position: absolute;
-                margin-left: auto;
-                margin-right: auto;
-                left: 0;
-                right: 17rem;
-                bottom: 3rem;
-                text-align: center;
-                color: #0FA30A;
+                position: relative;
+                text-align: right;
+                color: $lc-rojo;
+                top: 8rem;
                 p {
                     font-size: 35px;
+                    padding-right: 0;
                 }
                 .arrow {
                     position: absolute;
-                    left: 47%;
+                    left: 71%;
                     width: 40px;
                     height: 40px;
-                    top: 85%;
+                    top: 110%;
                     margin: -20px 0 0 -20px;
                     transform: rotate(45deg);
                     border-left: none;
                     border-top: none;
-                    border-right: 2px #0FA30A solid;
-                    border-bottom: 2px #0FA30A solid;
+                    border-right: 2px $lc-rojo solid;
+                    border-bottom: 2px $lc-rojo solid;
                     &::before {
                         content: "";
                         position: absolute;
@@ -73,8 +85,8 @@
                         margin: -20px 0 0 -20px;
                         border-left: none;
                         border-top: none;
-                        border-right: 2px #0FA30A solid;
-                        border-bottom: 2px #0FA30A solid;
+                        border-right: 2px $lc-rojo solid;
+                        border-bottom: 2px $lc-rojo solid;
                     }
                 }
             }

@@ -1,0 +1,51 @@
+.lc-pedido {
+    background-color: $lc-background;
+    padding-bottom: 4rem;
+    h2 {
+        font-size: 2.25rem;
+        margin-bottom: 0;
+        color: $lc-rojo;
+    }
+    .lc-pedido-row-2 {
+        padding: 3rem 7.25rem;
+        .lc-pedido-card {
+            box-shadow: 0.3rem 0.2rem 1rem -0.25rem rgba(#000000, 0.25);
+            border-radius: 1.25rem;
+            .lc-icon {
+                position: absolute;
+                right: -0.25rem;
+                top: -0.9rem;
+            }
+            .lc-icon-cooking {
+                position: absolute;
+                right: -1.2rem;
+                top: -1.8rem;
+            }
+            .lc-icon-deliver-man {
+                position: absolute;
+                right: -1rem;
+                top: -1rem;
+            }
+            .lc-pedido-card-body {
+                .card-title {
+                    color: $lc-rojo-secundario;
+                }
+                .card-text {
+                    color: $lc-rojo;
+                    padding: 6rem 0;
+                }
+                .lc-first-card-text {
+                    padding-bottom: 4.6rem;
+                }
+            }
+        }
+    }
+    .lc-cuota-servicio-row {
+        padding-left: 6.5rem;
+        padding-right: 6.5rem;
+        p {
+            color: $lc-rojo;
+            font-size: 1.8rem;
+        }
+    }
+}

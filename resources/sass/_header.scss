@@ -36,58 +36,58 @@
             }
         }
     }
-    header {
-        background-image: url('/img/background-header.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
+}
+header {
+    background-image: url('/img/background-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 82vh;
+    width: 100vw;
+    transition: all 0.4ms ease-in-out;
+    .lc-height {
         height: 82vh;
-        width: 100vw;
-        transition: all 0.4ms ease-in-out;
-        .lc-height {
-            height: 82vh;
-            h1 {
-                font-size: 68px;
-                color: $lc-rojo;
-            }
+        h1 {
+            font-size: 68px;
+            color: $lc-rojo;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            padding-right: 1.75rem;
+        }
+        .lc-haz-tu-pedido {
+            position: relative;
+            text-align: right;
+            color: $lc-rojo;
+            top: 8rem;
             p {
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 18px;
-                padding-right: 1.75rem;
+                font-size: 35px;
+                padding-right: 0;
             }
-            .lc-haz-tu-pedido {
-                position: relative;
-                text-align: right;
-                color: $lc-rojo;
-                top: 8rem;
-                p {
-                    font-size: 35px;
-                    padding-right: 0;
-                }
-                .arrow {
+            .arrow {
+                position: absolute;
+                left: 71%;
+                width: 40px;
+                height: 40px;
+                top: 110%;
+                margin: -20px 0 0 -20px;
+                transform: rotate(45deg);
+                border-left: none;
+                border-top: none;
+                border-right: 2px $lc-rojo solid;
+                border-bottom: 2px $lc-rojo solid;
+                &::before {
+                    content: "";
                     position: absolute;
-                    left: 71%;
+                    left: 35%;
                     width: 40px;
                     height: 40px;
-                    top: 110%;
+                    top: 35%;
                     margin: -20px 0 0 -20px;
-                    transform: rotate(45deg);
                     border-left: none;
                     border-top: none;
                     border-right: 2px $lc-rojo solid;
                     border-bottom: 2px $lc-rojo solid;
-                    &::before {
-                        content: "";
-                        position: absolute;
-                        left: 35%;
-                        width: 40px;
-                        height: 40px;
-                        top: 35%;
-                        margin: -20px 0 0 -20px;
-                        border-left: none;
-                        border-top: none;
-                        border-right: 2px $lc-rojo solid;
-                        border-bottom: 2px $lc-rojo solid;
-                    }
                 }
             }
         }

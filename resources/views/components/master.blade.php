@@ -61,28 +61,13 @@
                                     id="btn-galery">GALER&Iacute;A</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" class="text-decoration-none" href="#contact"
+                                <a class="nav-link" class="text-decoration-none" href="/contacto"
                                     id="btn-contact">CONTACTO</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <header>
-                <div class="container-xl">
-                    <div class="row lc-height">
-                        <div class="col-md-6 align-self-center">
-                            <h1>TAQUER&Iacute;A RA&Uacute;L</h1>
-                            <p>Desde hace mas de 40 a&ntilde;os, somos representantes de una de las comidas m&aacute;s representativas de M&eacute;xico, 
-                                nos respalda la calidad en nuestros tacos, adem&aacute;s de un gran sabor que se disfruta en cada mordida. </p>
-                            <div class="lc-haz-tu-pedido">
-                                <p>HAZ TU PEDIDO</p>
-                                <span class="arrow" id="lc-arrow-header"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
         </section>
         
         {{ $slot }}
@@ -97,6 +82,7 @@
                 </div>
             </div>
         </section>
+        <script src="http://unpkg.com/turbolinks"></script>
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>

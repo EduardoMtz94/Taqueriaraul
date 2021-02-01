@@ -24,6 +24,7 @@
         <link rel="canonical" href="{{ $metaTagsSeo->canonical }}">
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <script src="http://unpkg.com/turbolinks"></script>
     </head>
     <body>
         <section class="lc-header">
@@ -53,12 +54,12 @@
                                     id="btn-home">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" class="text-decoration-none" href="#menu"
+                                <a class="nav-link" class="text-decoration-none" href="/#menu"
                                     id="btn-menu">MEN&Uacute;</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" class="text-decoration-none" href="/gallery"
-                                    id="btn-galery">GALER&Iacute;A</a>
+                                    id="btn-gallery">GALER&Iacute;A</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" class="text-decoration-none" href="/contacto"
@@ -82,7 +83,6 @@
                 </div>
             </div>
         </section>
-        <script src="http://unpkg.com/turbolinks"></script>
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>

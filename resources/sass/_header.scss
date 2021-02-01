@@ -20,18 +20,6 @@
                     color: $lc-rojo;
                     font-weight: bold;
                     padding: 0 1rem !important;
-                    &::before {
-                        content: "";
-                        display: block;
-                        height: 0.15rem;
-                        width: 110%;
-                        background-color: $lc-rojo;
-                        position: relative;
-                        transition: all ease-in 250ms;
-                        top: 2.1rem;
-                        left: -0.25rem;
-                        transition: all 0.4s ease-in-out;
-                    }
                 }
             }
         }
@@ -76,6 +64,7 @@ header {
                 border-top: none;
                 border-right: 2px $lc-rojo solid;
                 border-bottom: 2px $lc-rojo solid;
+                cursor: pointer;
                 &::before {
                     content: "";
                     position: absolute;

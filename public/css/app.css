@@ -10027,18 +10027,6 @@ body {
   font-weight: bold;
   padding: 0 1rem !important;
 }
-.lc-header nav ul li a::before {
-  content: "";
-  display: block;
-  height: 0.15rem;
-  width: 110%;
-  background-color: #0FA30A;
-  position: relative;
-  transition: all ease-in 250ms;
-  top: 2.1rem;
-  left: -0.25rem;
-  transition: all 0.4s ease-in-out;
-}
 
 header {
   background-image: url("/img/background-header.jpg");
@@ -10082,6 +10070,7 @@ header .lc-height .lc-haz-tu-pedido .arrow {
   border-top: none;
   border-right: 2px #0FA30A solid;
   border-bottom: 2px #0FA30A solid;
+  cursor: pointer;
 }
 header .lc-height .lc-haz-tu-pedido .arrow::before {
   content: "";

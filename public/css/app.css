@@ -10584,6 +10584,31 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   padding-bottom: 3rem;
 }
 
+.lc-gallery {
+  padding: 4rem 0;
+}
+.lc-gallery h1 {
+  padding-bottom: 1rem;
+}
+.lc-gallery h1 mark {
+  background-color: #FFFF0B;
+  color: #0FA30A;
+}
+.lc-gallery .lc-carousel-big-gallery {
+  padding: 0 10rem 2rem 10rem;
+}
+.lc-gallery .lc-carousel-big-gallery .carousel-inner .carousel-item img {
+  vertical-align: top;
+}
+.lc-gallery .lc-second-carousel .col-sm-3 {
+  display: inline-block;
+  margin-left: -4px;
+}
+.lc-gallery .lc-second-carousel .col-sm-3 img {
+  width: 100%;
+  height: auto;
+}
+
 .lc-footer {
   background-color: #FFFF0B;
 }

@@ -57,7 +57,7 @@
                                     id="btn-menu">MEN&Uacute;</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" class="text-decoration-none" href="#galery"
+                                <a class="nav-link" class="text-decoration-none" href="/gallery"
                                     id="btn-galery">GALER&Iacute;A</a>
                             </li>
                             <li class="nav-item">

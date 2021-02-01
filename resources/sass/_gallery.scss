@@ -1,0 +1,30 @@
+.lc-gallery {
+    padding: 4rem 0;
+    h1 {
+        padding-bottom: 1rem;
+        mark {
+            background-color: $lc-background;
+            color: $lc-rojo;
+        }
+    }
+    .lc-carousel-big-gallery {
+        padding: 0 10rem 2rem 10rem;
+        .carousel-inner {
+            .carousel-item {
+                img {
+                    vertical-align: top;
+                }
+            }
+        }
+    }
+    .lc-second-carousel {
+        .col-sm-3 {
+            display: inline-block;
+            margin-left:-4px;
+            img{
+                width:100%;
+                height:auto;
+            }
+        }
+    }
+}

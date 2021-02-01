@@ -24,7 +24,7 @@
         <link rel="canonical" href="{{ $metaTagsSeo->canonical }}">
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-        <script src="http://unpkg.com/turbolinks"></script>
+        <script src="{{ asset('js/app.js') }}"></script>
     </head>
     <body>
         <section class="lc-header">
@@ -83,6 +83,6 @@
                 </div>
             </div>
         </section>
-        <script src="{{ asset('js/app.js') }}"></script>
+        <script src="{{ asset('js/lc-app.js') }}"></script>
     </body>
 </html>

@@ -1,0 +1,14 @@
+.lc-footer {
+    background-color: $lc-background;
+    p {
+        padding: 1rem 0;
+        color: $lc-rojo;
+        margin-bottom: 0 !important;
+        font-family: Arial, Helvetica, sans-serif;
+        a {
+            color: $lc-rojo;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+}

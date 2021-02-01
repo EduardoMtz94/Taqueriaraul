@@ -4,17 +4,17 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class master extends Component
+class BasicCard extends Component
 {
-    public $metaTagsSeo;
+    public $product;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($metaTagsSeo)
+    public function __construct($product)
     {
-        $this->metaTagsSeo = $metaTagsSeo;
+        $this->product = $product;
     }
 
     /**
@@ -24,6 +24,6 @@ class master extends Component
      */
     public function render()
     {
-        return view('components.master');
+        return view('components.basic-card');
     }
 }

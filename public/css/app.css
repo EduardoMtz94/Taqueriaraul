@@ -10008,6 +10008,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.lc-header .lc-head-promo {
+  background-color: #fff;
+}
 .lc-header .lc-head-promo p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -10525,7 +10528,7 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
 }
 
 .lc-contacto {
-  padding: 4rem 0;
+  padding: 13rem 0 4rem 0;
 }
 .lc-contacto h1 {
   padding-bottom: 1rem;
@@ -10574,7 +10577,7 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
 }
 
 .lc-gallery {
-  padding: 4rem 0;
+  padding: 13rem 0 4rem 0;
 }
 .lc-gallery h1 {
   padding-bottom: 1rem;

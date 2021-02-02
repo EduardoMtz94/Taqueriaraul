@@ -1,9 +1,11 @@
 $(document).ready(function() {
+    var pathName = window.location.pathname;
+
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-        if (scroll > 44) {
+        if (scroll > 44 && pathName == "/") {
             $("#lc-navbar").addClass('fixed-top');
-        } else {
+        } else if (scroll <= 44 && pathName == "/") {
             $("#lc-navbar").removeClass('fixed-top');
         }
     });
@@ -22,8 +24,6 @@ $(document).ready(function() {
             });
         }
     });
-
-    var pathName = window.location.pathname;
 
     if (pathName == "/") {
         var menu = $('#menu').offset().top - 110;
@@ -77,5 +77,9 @@ $(document).ready(function() {
         $("#btn-contact").css({
             "text-decoration" : "underline"
         });
+    }
+
+    if (pathName == "/gallery" || pathName == "/contacto") {
+        $("#lc-header").addClass('fixed-top');
     }
 });

@@ -32,10 +32,18 @@
                     <div class="carousel-item">
                         <img src="img/Galeria/9.jpeg" class="d-block mx-auto w-75" alt="Taqueria Raul Galeria Imagen 9">
                     </div>
+                    <a class="carousel-control-prev d-block d-md-none" href="#carouselBigGallery" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next d-block d-md-none" href="#carouselBigGallery" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
 
-            <div id="carouselGallery" class="carousel slide lc-second-carousel" data-ride="carousel" data-interval="20000">
+            <div id="carouselGallery" class="carousel slide lc-second-carousel d-none d-md-block" data-ride="carousel" data-interval="20000">
                 <div class="container carousel-inner">
                     <div class="carousel-item active">
                         <div class="col-sm-3 col-md-3">

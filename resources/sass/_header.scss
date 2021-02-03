@@ -13,6 +13,52 @@
         box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
         padding: 0 !important;
         transition: all 0.4ms ease-in-out;
+        .navbar-toggler {
+            background-color: transparent;
+            button, button:active {
+                outline: none !important;
+                box-shadow: none;
+            }
+            .lc-hamburguer {
+                display: inline-block;
+                position: relative;
+                height: 2px;
+                width: 34px;
+                border-radius: 1px;
+                background: $lc-rojo;
+                vertical-align: middle;
+                &::before, &::after {
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    height: 2px;
+                    border-radius: 1px;
+                    background: $lc-rojo;
+                    transition: all 200ms;
+                    width: 34px;
+                }
+                &::before {
+                    top: -11px;
+                    left: 0px;
+                }
+                &::after {
+                    top: 11px;
+                    left: 0px;
+                }
+            }
+            .lc-hamburguer-active {
+                height: 0 !important;
+                &::after, &::before {
+                    top: 0px !important;
+                }
+                &::after {
+                    transform: rotate(-45deg);
+                }
+                &::before {
+                    transform: rotate(45deg);
+                }
+            }
+        }
         ul {
             li {
                 a {

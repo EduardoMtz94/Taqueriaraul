@@ -1,0 +1,44 @@
+@media screen and (max-width:767px) {
+    .lc-gallery {
+        .lc-carousel-big-gallery {
+            padding: 0;
+            .carousel-control-prev,
+            .carousel-control-next {
+                top: 50%;
+            }
+            .carousel-control-prev {
+                .carousel-control-prev-icon {
+                    background: url('/img/left.svg');
+                }
+            }
+            .carousel-control-next {
+                .carousel-control-next-icon {
+                    background: url('/img/right.svg');
+                }
+            }
+        }
+    }
+    .lc-contacto {
+        .lc-map {
+            padding-right: 15px;
+            padding-bottom: 15px;
+        }
+        .lc-contact-info {
+            position: inherit;
+            right: 0;
+            top: 0;
+            padding-left: 15px;
+            .lc-contact-card {
+                width: 100%;
+                .lc-contact-card-body {
+                    padding-left: 1rem;
+                }
+            }
+        }
+    }
+    .lc-footer {
+        p {
+            padding: 0.25rem 0 0.5rem 0;
+        }
+    }
+}

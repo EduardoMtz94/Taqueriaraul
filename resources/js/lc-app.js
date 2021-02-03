@@ -82,4 +82,8 @@ $(document).ready(function() {
     if (pathName == "/gallery" || pathName == "/contacto") {
         $("#lc-header").addClass('fixed-top');
     }
+
+    $("#lc-btn-navbar").on('click', function(){
+        $("#lc-hamburguer").toggleClass('lc-hamburguer-active');
+    });
 });

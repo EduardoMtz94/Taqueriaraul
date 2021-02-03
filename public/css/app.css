@@ -10023,6 +10023,52 @@ body {
   padding: 0 !important;
   transition: all 0.4ms ease-in-out;
 }
+.lc-header nav .navbar-toggler {
+  background-color: transparent;
+}
+.lc-header nav .navbar-toggler button, .lc-header nav .navbar-toggler button:active {
+  outline: none !important;
+  box-shadow: none;
+}
+.lc-header nav .navbar-toggler .lc-hamburguer {
+  display: inline-block;
+  position: relative;
+  height: 2px;
+  width: 34px;
+  border-radius: 1px;
+  background: #0FA30A;
+  vertical-align: middle;
+}
+.lc-header nav .navbar-toggler .lc-hamburguer::before, .lc-header nav .navbar-toggler .lc-hamburguer::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  border-radius: 1px;
+  background: #0FA30A;
+  transition: all 200ms;
+  width: 34px;
+}
+.lc-header nav .navbar-toggler .lc-hamburguer::before {
+  top: -11px;
+  left: 0px;
+}
+.lc-header nav .navbar-toggler .lc-hamburguer::after {
+  top: 11px;
+  left: 0px;
+}
+.lc-header nav .navbar-toggler .lc-hamburguer-active {
+  height: 0 !important;
+}
+.lc-header nav .navbar-toggler .lc-hamburguer-active::after, .lc-header nav .navbar-toggler .lc-hamburguer-active::before {
+  top: 0px !important;
+}
+.lc-header nav .navbar-toggler .lc-hamburguer-active::after {
+  transform: rotate(-45deg);
+}
+.lc-header nav .navbar-toggler .lc-hamburguer-active::before {
+  transform: rotate(45deg);
+}
 .lc-header nav ul li a {
   text-decoration: none;
   font-size: 24px;
@@ -10614,4 +10660,41 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   color: #0FA30A;
   font-weight: bold;
   text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .lc-gallery .lc-carousel-big-gallery {
+    padding: 0;
+  }
+  .lc-gallery .lc-carousel-big-gallery .carousel-control-prev,
+.lc-gallery .lc-carousel-big-gallery .carousel-control-next {
+    top: 50%;
+  }
+  .lc-gallery .lc-carousel-big-gallery .carousel-control-prev .carousel-control-prev-icon {
+    background: url("/img/left.svg");
+  }
+  .lc-gallery .lc-carousel-big-gallery .carousel-control-next .carousel-control-next-icon {
+    background: url("/img/right.svg");
+  }
+
+  .lc-contacto .lc-map {
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  .lc-contacto .lc-contact-info {
+    position: inherit;
+    right: 0;
+    top: 0;
+    padding-left: 15px;
+  }
+  .lc-contacto .lc-contact-info .lc-contact-card {
+    width: 100%;
+  }
+  .lc-contacto .lc-contact-info .lc-contact-card .lc-contact-card-body {
+    padding-left: 1rem;
+  }
+
+  .lc-footer p {
+    padding: 0.25rem 0 0.5rem 0;
+  }
 }

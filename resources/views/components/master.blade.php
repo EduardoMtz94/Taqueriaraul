@@ -43,11 +43,11 @@
                         <img src="{{ asset('img/logo-taqueria-raul.jpeg') }}" alt="Taqueria Raul Logo" height="90">
                     </a>
                     <button class="navbar-toggler float-right" id="lc-btn-navbar" type="button"
-                        data-toggle="collapse" data-target="#lc-navbar" aria-label="hamburguer"
+                        data-toggle="collapse" data-target="#lc-navbar-child" aria-label="hamburguer"
                         role="presentation">
                         <span class="lc-hamburguer" id="lc-hamburguer"></span>
                     </button>
-                    <div class="navbar-collapse collapse lc-navbar-menu" id="lc-navbar">
+                    <div class="navbar-collapse collapse lc-navbar-menu" id="lc-navbar-child">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
                                 <a class="nav-link" class="text-decoration-none" href="/"
@@ -75,7 +75,7 @@
 
         <section class="lc-footer">
             <div class="container-xl">
-                <div class="row d-flex justify-content-between">
+                <div class="row d-flex justify-content-center justify-content-md-between">
                     <p>©2021 Taquería Raúl - All rights reserved.</p>
                     <p>
                         Site created by <a href="https://lalocodes.com" target="_blank" rel="noopener noreferrer">LaloCodes</a>

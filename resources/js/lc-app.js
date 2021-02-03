@@ -86,4 +86,10 @@ $(document).ready(function() {
     $("#lc-btn-navbar").on('click', function(){
         $("#lc-hamburguer").toggleClass('lc-hamburguer-active');
     });
+
+    $(".nav-item").on('click', function(){
+        if ($(window).width() <= 991) {
+            $("#lc-btn-navbar").click();
+        }
+    });
 });

@@ -26,8 +26,8 @@ $(document).ready(function() {
     });
 
     if (pathName == "/") {
-        var menu = $('#menu').offset().top - 110;
-        var lcPedido = $('#lc-pedido').offset().top - 110;
+        var menu = $('#menu').offset().top - 10;
+        var lcPedido = $('#lc-pedido').offset().top - 10;
 
         $('#btn-menu').on('click', function(e) {
             e.preventDefault();

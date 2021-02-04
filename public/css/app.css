@@ -10004,6 +10004,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+@font-face {
+  font-family: DreamLand;
+  src: url("/font/DreamlandStd.otf");
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -10092,6 +10096,7 @@ header .lc-height h1 {
   font-size: 68px;
   color: #0FA30A;
   padding-top: 5rem;
+  font-family: DreamLand;
 }
 header .lc-height p {
   font-family: Arial, Helvetica, sans-serif;
@@ -10105,12 +10110,13 @@ header .lc-height .lc-haz-tu-pedido {
   top: 5rem;
 }
 header .lc-height .lc-haz-tu-pedido p {
+  font-family: DreamLand;
   font-size: 35px;
   padding-right: 0;
 }
 header .lc-height .lc-haz-tu-pedido .arrow {
   position: absolute;
-  left: 71%;
+  left: 77%;
   width: 40px;
   height: 40px;
   top: 110%;
@@ -10151,6 +10157,9 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   border-right: 2px #0FA30A solid;
   border-bottom: 2px #0FA30A solid;
 }
+.menu .lc-tacos .lc-tacos-row h2 {
+  font-family: DreamLand;
+}
 .menu .lc-tacos .lc-tacos-row h2 mark {
   background-color: #FFFF0B;
   color: #0FA30A;
@@ -10184,6 +10193,9 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
 .menu .lc-tacos .lc-tacos-row .lc-card .lc-card-body .price {
   font-size: 1.02rem;
   font-weight: bold;
+}
+.menu .lc-lonches .lc-lonches-row h2 {
+  font-family: DreamLand;
 }
 .menu .lc-lonches .lc-lonches-row h2 mark {
   background-color: #FFFF0B;
@@ -10248,6 +10260,9 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   color: #0FA30A;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 0 !important;
+}
+.menu .lc-gringas .lc-gringas-row h2 {
+  font-family: DreamLand;
 }
 .menu .lc-gringas .lc-gringas-row h2 mark {
   background-color: #FFFF0B;
@@ -10332,6 +10347,9 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
 }
 .menu .lc-gringas .lc-gringas-row .lc-card .lc-card-body-2 .d-flex:nth-child(5) .dotted {
   width: 48%;
+}
+.menu .lc-ordenes .lc-ordenes-row h2 {
+  font-family: DreamLand;
 }
 .menu .lc-ordenes .lc-ordenes-row h2 mark {
   background-color: #FFFF0B;
@@ -10462,6 +10480,9 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
 .menu .lc-ordenes .lc-ordenes-row .lc-card .lc-card-body-5 .d-flex:nth-child(2) .dotted {
   width: 57%;
 }
+.menu .lc-bebidas .lc-bebidas-row h2 {
+  font-family: DreamLand;
+}
 .menu .lc-bebidas .lc-bebidas-row h2 mark {
   background-color: #FFFF0B;
   color: #0FA30A;
@@ -10493,6 +10514,9 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
 }
 .menu .lc-bebidas .lc-bebidas-row .lc-card .px-3 {
   padding-bottom: 0 !important;
+}
+.menu .lc-postres .lc-postres-row h2 {
+  font-family: DreamLand;
 }
 .menu .lc-postres .lc-postres-row h2 mark {
   background-color: #FFFF0B;
@@ -10529,6 +10553,7 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   padding-bottom: 4rem;
 }
 .lc-pedido h2 {
+  font-family: DreamLand;
   font-size: 2.25rem;
   margin-bottom: 0;
   color: #0FA30A;
@@ -10537,6 +10562,7 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   padding: 3rem 7.25rem;
 }
 .lc-pedido .lc-pedido-row-2 .lc-pedido-card {
+  font-family: DreamLand;
   box-shadow: 0.3rem 0.2rem 1rem -0.25rem rgba(0, 0, 0, 0.25);
   border-radius: 1.25rem;
 }
@@ -10570,6 +10596,7 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   padding-right: 6.5rem;
 }
 .lc-pedido .lc-cuota-servicio-row p {
+  font-family: DreamLand;
   color: #0FA30A;
   font-size: 1.8rem;
 }
@@ -10578,6 +10605,7 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   padding: 13rem 0 4rem 0;
 }
 .lc-contacto h1 {
+  font-family: DreamLand;
   padding-bottom: 1rem;
 }
 .lc-contacto h1 mark {
@@ -10602,6 +10630,7 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   padding-left: 3rem;
 }
 .lc-contacto .lc-contact-info .lc-contact-card .lc-contact-card-body .card-title {
+  font-family: DreamLand;
   color: #0FA30A;
   font-size: 1.25rem;
   margin-bottom: 0;
@@ -10627,6 +10656,7 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   padding: 13rem 0 4rem 0;
 }
 .lc-gallery h1 {
+  font-family: DreamLand;
   padding-bottom: 1rem;
 }
 .lc-gallery h1 mark {

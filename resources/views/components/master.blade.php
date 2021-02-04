@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>{{ config('app.name', 'Taqueria Raul') }}</title>
-        <!--<link rel="icon" type="image/png" href="{{ asset('img/lalo-codes-favicon.png') }}"/>-->
+        <link rel="icon" type="image/png" href="{{ asset('img/logo-don-raul.svg') }}"/>
 
         <meta name="description" content="{{ $metaTagsSeo->description }}">
         <meta name="robots" content="{{ $metaTagsSeo->robots }}">

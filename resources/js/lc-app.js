@@ -4,9 +4,9 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll > 44 && pathName == "/") {
-            $("#lc-navbar").addClass('fixed-top');
+            $("#lc-head-promo").addClass('d-none');
         } else if (scroll <= 44 && pathName == "/") {
-            $("#lc-navbar").removeClass('fixed-top');
+            $("#lc-head-promo").removeClass('d-none');
         }
     });
 
@@ -77,10 +77,6 @@ $(document).ready(function() {
         $("#btn-contact").css({
             "text-decoration" : "underline"
         });
-    }
-
-    if (pathName == "/gallery" || pathName == "/contacto") {
-        $("#lc-header").addClass('fixed-top');
     }
 
     $("#lc-btn-navbar").on('click', function(){

@@ -76,14 +76,15 @@ header {
     background-image: url('/img/background-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 82vh;
+    height: 100vh;
     width: 100vw;
     transition: all 0.4ms ease-in-out;
     .lc-height {
-        height: 82vh;
+        height: 100vh;
         h1 {
             font-size: 68px;
             color: $lc-rojo;
+            padding-top: 5rem;
         }
         p {
             font-family: Arial, Helvetica, sans-serif;
@@ -94,7 +95,7 @@ header {
             position: relative;
             text-align: right;
             color: $lc-rojo;
-            top: 8rem;
+            top: 5rem;
             p {
                 font-size: 35px;
                 padding-right: 0;

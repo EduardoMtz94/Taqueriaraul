@@ -27,8 +27,8 @@
         <script src="{{ asset('js/app.js') }}"></script>
     </head>
     <body>
-        <section class="lc-header" id="lc-header">
-            <div class="lc-head-promo">
+        <section class="lc-header fixed-top" id="lc-header">
+            <div class="lc-head-promo" id="lc-head-promo">
                 <div class="container-xl">
                     <div class="row">
                         <div class="col-12 text-right pr-4 py-2">

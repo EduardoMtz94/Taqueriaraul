@@ -10081,16 +10081,17 @@ header {
   background-image: url("/img/background-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 82vh;
+  height: 100vh;
   width: 100vw;
   transition: all 0.4ms ease-in-out;
 }
 header .lc-height {
-  height: 82vh;
+  height: 100vh;
 }
 header .lc-height h1 {
   font-size: 68px;
   color: #0FA30A;
+  padding-top: 5rem;
 }
 header .lc-height p {
   font-family: Arial, Helvetica, sans-serif;
@@ -10101,7 +10102,7 @@ header .lc-height .lc-haz-tu-pedido {
   position: relative;
   text-align: right;
   color: #0FA30A;
-  top: 8rem;
+  top: 5rem;
 }
 header .lc-height .lc-haz-tu-pedido p {
   font-size: 35px;
@@ -10645,6 +10646,18 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
 .lc-gallery .lc-second-carousel .col-sm-3 img {
   width: 100%;
   height: auto;
+}
+.lc-gallery .lc-second-carousel .carousel-control-prev {
+  left: -4.75rem;
+}
+.lc-gallery .lc-second-carousel .carousel-control-prev .carousel-control-prev-icon {
+  background: url("/img/left.svg");
+}
+.lc-gallery .lc-second-carousel .carousel-control-next {
+  right: -4rem;
+}
+.lc-gallery .lc-second-carousel .carousel-control-next .carousel-control-next-icon {
+  background: url("/img/right.svg");
 }
 
 .lc-footer {

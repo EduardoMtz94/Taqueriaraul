@@ -18,13 +18,13 @@ trait MetaTagsTrait {
         $metaTagsSeo['ogType'] = 'website';
         $metaTagsSeo['ogTitle'] = env('APP_NAME', 'Taqueria Raul');
         $metaTagsSeo['ogDescription'] = $metaTagsSeo['description'];
-        //$metaTagsSeo['ogImage'] = URL::asset('/img/me.jpeg');
+        $metaTagsSeo['ogImage'] = URL::asset('img/logo-don-raul.svg');
         $metaTagsSeo['ogUrl'] = $metaTagsSeo['canonical'];
         // Metatags Twitter
         $metaTagsSeo['twitter_card'] = 'summary';
         $metaTagsSeo['twitter_creator'] = '@AlemanEMS';
         $metaTagsSeo['twitter_description'] = $metaTagsSeo['description'];
-        //$metaTagsSeo['twitter_image'] = $metaTagsSeo['ogImage'];
+        $metaTagsSeo['twitter_image'] = $metaTagsSeo['ogImage'];
         $metaTagsSeo['twitter_title'] = $metaTagsSeo['ogTitle'];
 
         return $metaTagsSeo;

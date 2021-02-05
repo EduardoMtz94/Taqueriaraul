@@ -3,7 +3,7 @@
         background-color: #fff;
         p {
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 18px;
+            font-size: 1.125rem;
             color: $lc-rojo;
             font-weight: lighter !important;
         }
@@ -22,20 +22,20 @@
             .lc-hamburguer {
                 display: inline-block;
                 position: relative;
-                height: 2px;
-                width: 34px;
-                border-radius: 1px;
+                height: 0.125rem;
+                width: 2.125rem;
+                border-radius: 0.0625px;
                 background: $lc-rojo;
                 vertical-align: middle;
                 &::before, &::after {
                     content: "";
                     display: inline-block;
                     position: absolute;
-                    height: 2px;
-                    border-radius: 1px;
+                    height: 0.125rem;
+                    border-radius: 0.0625px;
                     background: $lc-rojo;
                     transition: all 200ms;
-                    width: 34px;
+                    width: 2.125rem;
                 }
                 &::before {
                     top: -11px;
@@ -82,14 +82,14 @@ header {
     .lc-height {
         height: 100vh;
         h1 {
-            font-size: 68px;
+            font-size: 4.25rem;
             color: $lc-rojo;
             padding-top: 5rem;
             font-family: DreamLand;
         }
         p {
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 18px;
+            font-size: 1.125rem;
             padding-right: 1.75rem;
         }
         .lc-haz-tu-pedido {
@@ -99,16 +99,16 @@ header {
             top: 5rem;
             p {
                 font-family: DreamLand;
-                font-size: 35px;
+                font-size: 2.1875rem;
                 padding-right: 0;
             }
             .arrow {
                 position: absolute;
                 left: 77%;
-                width: 40px;
-                height: 40px;
+                width: 2.5rem;
+                height: 2.5rem;
                 top: 110%;
-                margin: -20px 0 0 -20px;
+                margin: -1.25rem 0 0 -1.25rem;
                 transform: rotate(45deg);
                 border-left: none;
                 border-top: none;
@@ -119,10 +119,10 @@ header {
                     content: "";
                     position: absolute;
                     left: 35%;
-                    width: 40px;
-                    height: 40px;
+                    width: 2.5rem;
+                    height: 2.5rem;
                     top: 35%;
-                    margin: -20px 0 0 -20px;
+                    margin: -1.25rem 0 0 -1.25rem;
                     border-left: none;
                     border-top: none;
                     border-right: 2px $lc-rojo solid;

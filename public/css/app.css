@@ -10017,7 +10017,7 @@ body {
 }
 .lc-header .lc-head-promo p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #0FA30A;
   font-weight: lighter !important;
 }
@@ -10037,9 +10037,9 @@ body {
 .lc-header nav .navbar-toggler .lc-hamburguer {
   display: inline-block;
   position: relative;
-  height: 2px;
-  width: 34px;
-  border-radius: 1px;
+  height: 0.125rem;
+  width: 2.125rem;
+  border-radius: 0.0625px;
   background: #0FA30A;
   vertical-align: middle;
 }
@@ -10047,11 +10047,11 @@ body {
   content: "";
   display: inline-block;
   position: absolute;
-  height: 2px;
-  border-radius: 1px;
+  height: 0.125rem;
+  border-radius: 0.0625px;
   background: #0FA30A;
   transition: all 200ms;
-  width: 34px;
+  width: 2.125rem;
 }
 .lc-header nav .navbar-toggler .lc-hamburguer::before {
   top: -11px;
@@ -10093,14 +10093,14 @@ header .lc-height {
   height: 100vh;
 }
 header .lc-height h1 {
-  font-size: 68px;
+  font-size: 4.25rem;
   color: #0FA30A;
   padding-top: 5rem;
   font-family: DreamLand;
 }
 header .lc-height p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   padding-right: 1.75rem;
 }
 header .lc-height .lc-haz-tu-pedido {
@@ -10111,16 +10111,16 @@ header .lc-height .lc-haz-tu-pedido {
 }
 header .lc-height .lc-haz-tu-pedido p {
   font-family: DreamLand;
-  font-size: 35px;
+  font-size: 2.1875rem;
   padding-right: 0;
 }
 header .lc-height .lc-haz-tu-pedido .arrow {
   position: absolute;
   left: 77%;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   top: 110%;
-  margin: -20px 0 0 -20px;
+  margin: -1.25rem 0 0 -1.25rem;
   transform: rotate(45deg);
   border-left: none;
   border-top: none;
@@ -10132,10 +10132,10 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   content: "";
   position: absolute;
   left: 35%;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   top: 35%;
-  margin: -20px 0 0 -20px;
+  margin: -1.25rem 0 0 -1.25rem;
   border-left: none;
   border-top: none;
   border-right: 2px #0FA30A solid;
@@ -10169,7 +10169,7 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   box-shadow: none !important;
 }
 .menu .lc-tacos .lc-tacos-row h2 a .lc-icon-collapse {
-  transition: all 0.4s ease-out;
+  transition: all 0.3s ease-out;
   transform: rotate(0deg);
 }
 .menu .lc-tacos .lc-tacos-row .lc-productos-sujetos-a {
@@ -10706,6 +10706,32 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
 }
 
 @media screen and (max-width: 767px) {
+  header {
+    background-size: 110vw 110vh;
+  }
+  header .lc-height {
+    height: 100vh;
+  }
+  header .lc-height h1 {
+    font-size: 3rem;
+    color: #0FA30A;
+    padding-top: 10rem;
+    font-family: DreamLand;
+  }
+  header .lc-height p {
+    font-size: 1rem;
+  }
+  header .lc-height .lc-haz-tu-pedido {
+    text-align: center;
+    top: 2rem;
+  }
+  header .lc-height .lc-haz-tu-pedido p {
+    font-size: 2rem;
+  }
+  header .lc-height .lc-haz-tu-pedido .arrow {
+    left: 47%;
+  }
+
   .lc-gallery .lc-carousel-big-gallery {
     padding: 0;
   }
@@ -10737,11 +10763,32 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
     padding-left: 1rem;
   }
 
+  .lc-pedido .lc-title {
+    padding-top: 1rem;
+  }
+  .lc-pedido .lc-pedido-row-2 {
+    padding: 3rem 1.25rem;
+  }
+  .lc-pedido .lc-pedido-row-2 .col-sm-12 {
+    padding-bottom: 1.5rem;
+  }
+  .lc-pedido .lc-cuota-servicio-row {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .lc-pedido .lc-cuota-servicio-row p {
+    font-size: 1.3rem;
+  }
+
   .lc-footer p {
     padding: 0.25rem 0 0.5rem 0;
   }
 }
 @media screen and (max-width: 575px) {
+  header {
+    background-size: cover;
+  }
+
   .menu {
     padding: 100px 0;
     background-color: white;
@@ -10757,36 +10804,96 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
     border-right: 2px #0FA30A solid;
     border-bottom: 2px #0FA30A solid;
   }
-  .menu .lc-tacos .lc-tacos-row {
-    /*h2 {
-        font-family: DreamLand;
-        mark {
-            background-color: $lc-background;
-            color: $lc-rojo;
-        }
-        a {
-            outline: none !important;
-            box-shadow: none !important;
-            .lc-icon-collapse {
-                transition: all 0.4s ease-out;
-                transform: rotate(0deg);
-            }
-        }
-    }
-    .lc-productos-sujetos-a {
-        color: $lc-rojo;
-        font-size: 0.6rem;
-        font-family: Arial, Helvetica, sans-serif;
-    }*/
-  }
   .menu .lc-tacos .lc-tacos-row .lc-col-card {
     width: 50%;
   }
   .menu .lc-tacos .lc-tacos-row .lc-col-card .lc-card .lc-card-body p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .menu .lc-tacos .lc-tacos-row .lc-col-card .lc-card .lc-card-body .price {
-    font-size: 0.9rem;
-    font-weight: bold;
+    font-size: 0.7rem;
+  }
+  .menu .lc-lonches .lc-lonches-row .lc-card {
+    box-shadow: 0.3rem 0.2rem 1rem -0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+  }
+  .menu .lc-lonches .lc-lonches-row .lc-card img {
+    border-radius: 0.75rem;
+  }
+  .menu .lc-lonches .lc-lonches-row .lc-card .lc-col-1 {
+    padding-bottom: 0 !important;
+  }
+  .menu .lc-lonches .lc-lonches-row .lc-card .lc-col-1 .lc-card-body-1 {
+    padding-bottom: 0;
+  }
+  .menu .lc-lonches .lc-lonches-row .lc-card .lc-col-2 {
+    padding-top: 0 !important;
+  }
+  .menu .lc-lonches .lc-lonches-row .lc-card .lc-col-2 .lc-card-body-2 {
+    padding-top: 0;
+  }
+  .menu .lc-gringas .lc-gringas-row .lc-card .lc-col-1 {
+    padding-bottom: 0 !important;
+  }
+  .menu .lc-gringas .lc-gringas-row .lc-card .lc-col-1 .lc-card-body-1 {
+    padding-bottom: 0;
+  }
+  .menu .lc-gringas .lc-gringas-row .lc-card .lc-col-2 {
+    padding-top: 0 !important;
+  }
+  .menu .lc-gringas .lc-gringas-row .lc-card .lc-col-2 .lc-card-body-2 {
+    padding-top: 0;
+  }
+  .menu .lc-gringas .lc-gringas-row .lc-card .lc-col-2 .lc-card-body-2 .d-flex:nth-child(2) .dotted {
+    width: 35%;
+  }
+  .menu .lc-gringas .lc-gringas-row .lc-card .lc-col-2 .lc-card-body-2 .d-flex:nth-child(5) .dotted {
+    width: 35%;
+  }
+  .menu .lc-ordenes .lc-ordenes-row .lc-card h3 {
+    font-size: 1.25rem;
+  }
+  .menu .lc-ordenes .lc-ordenes-row .lc-card .lc-col-1 {
+    padding-bottom: 0 !important;
+  }
+  .menu .lc-ordenes .lc-ordenes-row .lc-card .lc-col-1 .lc-card-body-1 {
+    padding-bottom: 0;
+  }
+  .menu .lc-ordenes .lc-ordenes-row .lc-card .lc-col-1 .lc-card-body-2 {
+    padding-top: 1.25rem;
+    padding-bottom: 0;
+  }
+  .menu .lc-ordenes .lc-ordenes-row .lc-card .lc-col-2 {
+    padding-top: 0 !important;
+  }
+  .menu .lc-ordenes .lc-ordenes-row .lc-card .lc-col-2 .lc-card-body-3 {
+    padding-top: 1.25rem;
+    padding-bottom: 0;
+  }
+  .menu .lc-ordenes .lc-ordenes-row .lc-card .lc-col-2 .lc-card-body-4 {
+    padding-top: 1.25rem;
+    padding-bottom: 0;
+  }
+  .menu .lc-ordenes .lc-ordenes-row .lc-card .lc-col-2 .lc-card-body-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 0;
+  }
+  .menu .lc-bebidas .lc-bebidas-row .lc-col-card {
+    width: 50%;
+  }
+  .menu .lc-bebidas .lc-bebidas-row .lc-col-card .lc-card .lc-card-body p {
+    font-size: 0.6rem;
+  }
+  .menu .lc-bebidas .lc-bebidas-row .lc-col-card .lc-card .lc-card-body .price {
+    font-size: 0.7rem;
+  }
+  .menu .lc-postres .lc-postres-row .lc-col-card {
+    width: 50%;
+  }
+  .menu .lc-postres .lc-postres-row .lc-col-card .lc-card .lc-card-body p {
+    font-size: 0.6rem;
+  }
+  .menu .lc-postres .lc-postres-row .lc-col-card .lc-card .lc-card-body .price {
+    font-size: 0.7rem;
   }
 }

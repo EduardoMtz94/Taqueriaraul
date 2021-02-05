@@ -14,13 +14,15 @@ $(document).ready(function() {
         var collapseName = $(this).attr('href');
         var icon = $(this).data('icon');
         var collapseClass = $(collapseName).attr('class');
+        var firstTransform = $(window).width() < 575 ? "0deg" : "180deg";
+        var secondTransform = $(window).width() < 575 ? "-180deg" : "0deg";
         if(collapseClass.indexOf("show") >= 0) {
             $(icon).css({
-                "transform" : "rotate(180deg)"
+                "transform" : "rotate("+firstTransform+")"
             });
         } else {
             $(icon).css({
-                "transform" : "rotate(0deg)"
+                "transform" : "rotate("+secondTransform+")"
             });
         }
     });
@@ -88,4 +90,19 @@ $(document).ready(function() {
             $("#lc-btn-navbar").click();
         }
     });
+
+    if ($(window).width() < 575) {
+        $("#collapseTacos").removeClass("show");
+        $("#lc-icon-collapse-tacos").attr("src", "/img/down.svg");
+        $("#collapseLonches").removeClass("show");
+        $("#lc-icon-collapse-lonches").attr("src", "/img/down.svg");
+        $("#collapseGringas").removeClass("show");
+        $("#lc-icon-collapse-gringas").attr("src", "/img/down.svg");
+        $("#collapseOrdenes").removeClass("show");
+        $("#lc-icon-collapse-ordenes").attr("src", "/img/down.svg");
+        $("#collapseBebidas").removeClass("show");
+        $("#lc-icon-collapse-bebidas").attr("src", "/img/down.svg");
+        $("#collapsePostres").removeClass("show");
+        $("#lc-icon-collapse-postres").attr("src", "/img/down.svg");
+    }
 });

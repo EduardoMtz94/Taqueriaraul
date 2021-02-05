@@ -1,4 +1,29 @@
 @media screen and (max-width:767px) {
+    header {
+        background-size: 110vw 110vh;
+        .lc-height {
+            height: 100vh;
+            h1 {
+                font-size: 3rem;
+                color: $lc-rojo;
+                padding-top: 10rem;
+                font-family: DreamLand;
+            }
+            p {
+                font-size: 1rem;
+            }
+            .lc-haz-tu-pedido {
+                text-align: center;
+                top: 2rem;
+                p {
+                    font-size: 2rem;
+                }
+                .arrow {
+                    left: 47%;
+                }
+            }
+        }
+    }
     .lc-gallery {
         .lc-carousel-big-gallery {
             padding: 0;
@@ -36,6 +61,24 @@
             }
         }
     }
+    .lc-pedido {
+        .lc-title {
+            padding-top: 1rem;
+        }
+        .lc-pedido-row-2 {
+            padding: 3rem 1.25rem;
+            .col-sm-12 {
+                padding-bottom: 1.5rem;
+            }
+        }
+        .lc-cuota-servicio-row {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            p {
+                font-size: 1.3rem;
+            }
+        }
+    }
     .lc-footer {
         p {
             padding: 0.25rem 0 0.5rem 0;
@@ -44,6 +87,9 @@
 }
 
 @media screen and (max-width:575px) {
+    header {
+        background-size: cover;
+    }
     .menu {
         padding: 100px 0;
         background-color: white;
@@ -60,36 +106,134 @@
         }
         .lc-tacos {
             .lc-tacos-row {
-                /*h2 {
-                    font-family: DreamLand;
-                    mark {
-                        background-color: $lc-background;
-                        color: $lc-rojo;
-                    }
-                    a {
-                        outline: none !important;
-                        box-shadow: none !important;
-                        .lc-icon-collapse {
-                            transition: all 0.4s ease-out;
-                            transform: rotate(0deg);
-                        }
-                    }
-                }
-                .lc-productos-sujetos-a {
-                    color: $lc-rojo;
-                    font-size: 0.6rem;
-                    font-family: Arial, Helvetica, sans-serif;
-                }*/
                 .lc-col-card {
                     width: 50%;
                     .lc-card {
                         .lc-card-body {
                             p {
-                                font-size: 0.7rem;
+                                font-size: 0.6rem;
                             }
                             .price {
-                                font-size: 0.9rem;
-                                font-weight: bold;
+                                font-size: 0.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .lc-lonches {
+            .lc-lonches-row {
+                .lc-card {
+                    box-shadow: 0.3rem 0.2rem 1rem -0.25rem rgba(#000000, 0.25);
+                    border-radius: 1.25rem;
+                    img {
+                        border-radius: 0.75rem;
+                    }
+                    .lc-col-1 {
+                        padding-bottom: 0 !important;
+                        .lc-card-body-1 {
+                            padding-bottom: 0;
+                        }
+                    }
+                    .lc-col-2 {
+                        padding-top: 0 !important;
+                        .lc-card-body-2 {
+                            padding-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .lc-gringas {
+            .lc-gringas-row {
+                .lc-card {
+                    .lc-col-1 {
+                        padding-bottom: 0!important;
+                        .lc-card-body-1 {
+                            padding-bottom: 0;
+                        }
+                    }
+                    .lc-col-2 {
+                        padding-top: 0 !important;
+                        .lc-card-body-2 {
+                            padding-top: 0;
+                            .d-flex:nth-child(2) {
+                                .dotted {
+                                    width: 35%;
+                                }
+                            }
+                            .d-flex:nth-child(5) {
+                                .dotted {
+                                    width: 35%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .lc-ordenes {
+            .lc-ordenes-row {
+                .lc-card {
+                    h3 {
+                        font-size: 1.25rem;
+                    }
+                    .lc-col-1 {
+                        padding-bottom: 0 !important;
+                        .lc-card-body-1 {
+                            padding-bottom: 0;
+                        }
+                        .lc-card-body-2 {
+                            padding-top: 1.25rem;
+                            padding-bottom: 0;
+                        }
+                    }
+                    .lc-col-2 {
+                        padding-top: 0 !important;
+                        .lc-card-body-3 {
+                            padding-top: 1.25rem;
+                            padding-bottom: 0;
+                        }
+                        .lc-card-body-4 {
+                            padding-top: 1.25rem;
+                            padding-bottom: 0;
+                        }
+                        .lc-card-body-5 {
+                            padding-top: 1.25rem;
+                            padding-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .lc-bebidas {
+            .lc-bebidas-row {
+                .lc-col-card {
+                    width: 50%;
+                    .lc-card {
+                        .lc-card-body {
+                            p {
+                                font-size: 0.6rem;
+                            }
+                            .price {
+                                font-size: 0.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .lc-postres {
+            .lc-postres-row {
+                .lc-col-card {
+                    width: 50%;
+                    .lc-card {
+                        .lc-card-body {
+                            p {
+                                font-size: 0.6rem;
+                            }
+                            .price {
+                                font-size: 0.7rem;
                             }
                         }
                     }

@@ -10732,6 +10732,9 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
     left: 47%;
   }
 
+  .lc-gallery {
+    height: 89vh;
+  }
   .lc-gallery .lc-carousel-big-gallery {
     padding: 0;
   }
@@ -10788,6 +10791,20 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   header {
     background-size: cover;
   }
+  header .lc-height .lc-haz-tu-pedido p {
+    font-size: 1.5rem;
+  }
+  header .lc-height .lc-haz-tu-pedido .arrow {
+    width: 2rem;
+    height: 2rem;
+    top: 130%;
+  }
+  header .lc-height .lc-haz-tu-pedido .arrow::before {
+    left: 45%;
+    top: 45%;
+    width: 2rem;
+    height: 2rem;
+  }
 
   .menu {
     padding: 100px 0;
@@ -10807,6 +10824,9 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   .menu .lc-tacos .lc-tacos-row .lc-col-card {
     width: 50%;
   }
+  .menu .lc-tacos .lc-tacos-row .lc-col-card .lc-card {
+    border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
+  }
   .menu .lc-tacos .lc-tacos-row .lc-col-card .lc-card .lc-card-body p {
     font-size: 0.6rem;
   }
@@ -10814,8 +10834,7 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
     font-size: 0.7rem;
   }
   .menu .lc-lonches .lc-lonches-row .lc-card {
-    box-shadow: 0.3rem 0.2rem 1rem -0.25rem rgba(0, 0, 0, 0.25);
-    border-radius: 1.25rem;
+    border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
   }
   .menu .lc-lonches .lc-lonches-row .lc-card img {
     border-radius: 0.75rem;
@@ -10831,6 +10850,9 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   }
   .menu .lc-lonches .lc-lonches-row .lc-card .lc-col-2 .lc-card-body-2 {
     padding-top: 0;
+  }
+  .menu .lc-gringas .lc-gringas-row .lc-card {
+    border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
   }
   .menu .lc-gringas .lc-gringas-row .lc-card .lc-col-1 {
     padding-bottom: 0 !important;
@@ -10849,6 +10871,9 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   }
   .menu .lc-gringas .lc-gringas-row .lc-card .lc-col-2 .lc-card-body-2 .d-flex:nth-child(5) .dotted {
     width: 35%;
+  }
+  .menu .lc-ordenes .lc-ordenes-row .lc-card {
+    border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
   }
   .menu .lc-ordenes .lc-ordenes-row .lc-card h3 {
     font-size: 1.25rem;
@@ -10881,6 +10906,9 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   .menu .lc-bebidas .lc-bebidas-row .lc-col-card {
     width: 50%;
   }
+  .menu .lc-bebidas .lc-bebidas-row .lc-col-card .lc-card {
+    border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
+  }
   .menu .lc-bebidas .lc-bebidas-row .lc-col-card .lc-card .lc-card-body p {
     font-size: 0.6rem;
   }
@@ -10889,6 +10917,9 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   }
   .menu .lc-postres .lc-postres-row .lc-col-card {
     width: 50%;
+  }
+  .menu .lc-postres .lc-postres-row .lc-col-card .lc-card {
+    border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
   }
   .menu .lc-postres .lc-postres-row .lc-col-card .lc-card .lc-card-body p {
     font-size: 0.6rem;

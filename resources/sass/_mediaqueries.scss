@@ -25,6 +25,7 @@
         }
     }
     .lc-gallery {
+        height: 89vh;
         .lc-carousel-big-gallery {
             padding: 0;
             .carousel-control-prev,
@@ -89,6 +90,24 @@
 @media screen and (max-width:575px) {
     header {
         background-size: cover;
+        .lc-height {
+            .lc-haz-tu-pedido {
+                p {
+                    font-size: 1.5rem;
+                }
+                .arrow {
+                    width: 2rem;
+                    height: 2rem;
+                    top: 130%;
+                    &::before {
+                        left: 45%;
+                        top: 45%;
+                        width: 2rem;
+                        height: 2rem;
+                    }
+                }
+            }
+        }
     }
     .menu {
         padding: 100px 0;
@@ -109,6 +128,7 @@
                 .lc-col-card {
                     width: 50%;
                     .lc-card {
+                        border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
                         .lc-card-body {
                             p {
                                 font-size: 0.6rem;
@@ -124,8 +144,7 @@
         .lc-lonches {
             .lc-lonches-row {
                 .lc-card {
-                    box-shadow: 0.3rem 0.2rem 1rem -0.25rem rgba(#000000, 0.25);
-                    border-radius: 1.25rem;
+                    border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
                     img {
                         border-radius: 0.75rem;
                     }
@@ -147,6 +166,7 @@
         .lc-gringas {
             .lc-gringas-row {
                 .lc-card {
+                    border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
                     .lc-col-1 {
                         padding-bottom: 0!important;
                         .lc-card-body-1 {
@@ -175,6 +195,7 @@
         .lc-ordenes {
             .lc-ordenes-row {
                 .lc-card {
+                    border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
                     h3 {
                         font-size: 1.25rem;
                     }
@@ -211,6 +232,7 @@
                 .lc-col-card {
                     width: 50%;
                     .lc-card {
+                        border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
                         .lc-card-body {
                             p {
                                 font-size: 0.6rem;
@@ -228,6 +250,7 @@
                 .lc-col-card {
                     width: 50%;
                     .lc-card {
+                        border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
                         .lc-card-body {
                             p {
                                 font-size: 0.6rem;

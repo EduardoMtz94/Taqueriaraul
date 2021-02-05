@@ -2,7 +2,7 @@
     <header>
         <div class="container-xl">
             <div class="row lc-height">
-                <div class="col-md-6 align-self-center">
+                <div class="col-sm-6 col-md-6 align-self-center">
                     <h1>TAQUER&Iacute;A RA&Uacute;L</h1>
                     <p>Desde hace mas de 40 a&ntilde;os, somos representantes de una de las comidas m&aacute;s representativas de M&eacute;xico, 
                         nos respalda la calidad en nuestros tacos, adem&aacute;s de un gran sabor que se disfruta en cada mordida. </p>
@@ -18,14 +18,14 @@
         <section class="lc-tacos" id="lc-tacos">
             <div class="container-xl">
                 <div class="row lc-tacos-row">
-                    <div class="col-md-10">
+                    <div class="col-8 col-md-10">
                         <h2><mark>Tacos</mark> 
                             <a class="btn lc-collapse" data-toggle="collapse" href="#collapseTacos" role="button" aria-expanded="false" aria-controls="collapseTacos" id="lc-btn-collapse" data-icon="#lc-icon-collapse-tacos">
                                 <img src="img/up.svg" alt="Icono collapse" class="lc-icon-collapse" id="lc-icon-collapse-tacos" width="40px">
                             </a>
                         </h2>
                     </div>
-                    <div class="col-md-2 d-flex flex-column text-right">
+                    <div class="col-4 col-md-2 d-flex flex-column text-right">
                         <p class="lc-productos-sujetos-a mt-auto">Productos sujetos a existencia*</p>
                     </div>
                     <div class="col-12">

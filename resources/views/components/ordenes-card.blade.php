@@ -1,10 +1,10 @@
-<div class="col-12 pb-5">
+<div class="col-12 pb-5 pt-4">
     <div class="card lc-card">
         <div class="row no-gutters">
             <div class="col-md-4 p-3">
                 <img src="img/Productos/Orden-de-tacos.jpg" class="card-img" alt="Orden de tacos Taqueria Raul">
             </div>
-            <div class="col-md-4 p-3 d-flex flex-column justify-content-between">
+            <div class="col-md-4 p-3 d-flex flex-column justify-content-between lc-col-1">
                 <div class="card-body d-flex flex-column lc-card-body-1">
                     <h3>Orden Chica</h3>
                     <div class="d-flex justify-content-between pl-3">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 p-3 d-flex flex-column">
+            <div class="col-md-4 p-3 d-flex flex-column lc-col-2">
                 <div class="card-body d-flex flex-column lc-card-body-3">
                     <h3>Orden De Lengua</h3>
                     <div class="d-flex justify-content-between pl-3">

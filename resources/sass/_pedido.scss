@@ -2,6 +2,7 @@
     background-color: $lc-background;
     padding-bottom: 4rem;
     h2 {
+        font-family: DreamLand;
         font-size: 2.25rem;
         margin-bottom: 0;
         color: $lc-rojo;
@@ -9,6 +10,7 @@
     .lc-pedido-row-2 {
         padding: 3rem 7.25rem;
         .lc-pedido-card {
+            font-family: DreamLand;
             box-shadow: 0.3rem 0.2rem 1rem -0.25rem rgba(#000000, 0.25);
             border-radius: 1.25rem;
             .lc-icon {
@@ -44,6 +46,7 @@
         padding-left: 6.5rem;
         padding-right: 6.5rem;
         p {
+            font-family: DreamLand;
             color: $lc-rojo;
             font-size: 1.8rem;
         }

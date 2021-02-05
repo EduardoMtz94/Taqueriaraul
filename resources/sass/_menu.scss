@@ -15,6 +15,7 @@
     .lc-tacos {
         .lc-tacos-row {
             h2 {
+                font-family: DreamLand;
                 mark {
                     background-color: $lc-background;
                     color: $lc-rojo;
@@ -23,7 +24,7 @@
                     outline: none !important;
                     box-shadow: none !important;
                     .lc-icon-collapse {
-                        transition: all 0.4s ease-out;
+                        transition: all 0.3s ease-out;
                         transform: rotate(0deg);
                     }
                 }
@@ -55,6 +56,7 @@
     .lc-lonches {
         .lc-lonches-row {
             h2 {
+                font-family: DreamLand;
                 mark {
                     background-color: $lc-background;
                     color: $lc-rojo;
@@ -127,6 +129,7 @@
     .lc-gringas {
         .lc-gringas-row {
             h2 {
+                font-family: DreamLand;
                 mark {
                     background-color: $lc-background;
                     color: $lc-rojo;
@@ -243,6 +246,7 @@
     .lc-ordenes {
         .lc-ordenes-row {
             h2 {
+                font-family: DreamLand;
                 mark {
                     background-color: $lc-background;
                     color: $lc-rojo;
@@ -396,6 +400,7 @@
     .lc-bebidas {
         .lc-bebidas-row {
             h2 {
+                font-family: DreamLand;
                 mark {
                     background-color: $lc-background;
                     color: $lc-rojo;
@@ -434,6 +439,7 @@
     .lc-postres {
         .lc-postres-row {
             h2 {
+                font-family: DreamLand;
                 mark {
                     background-color: $lc-background;
                     color: $lc-rojo;

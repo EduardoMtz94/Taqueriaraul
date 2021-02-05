@@ -1,6 +1,7 @@
 .lc-contacto {
     padding: 13rem 0 4rem 0;
     h1 {
+        font-family: DreamLand;
         padding-bottom: 1rem;
         mark {
             background-color: $lc-background;
@@ -22,6 +23,7 @@
             .lc-contact-card-body {
                 padding-left: 3rem;
                 .card-title {
+                    font-family: DreamLand;
                     color: $lc-rojo;
                     font-size: 1.25rem;
                     margin-bottom: 0;

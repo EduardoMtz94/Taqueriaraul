@@ -32,7 +32,7 @@ trait MenuTacosTrait {
             ],
             [
                 'img' => 'img/Productos/Varios.jpg',
-                'name' => 'Taco de h&iacute;gado',
+                'name' => 'Taco de hígado',
                 'price' => '$11.00'
             ],
             [
@@ -78,12 +78,12 @@ trait MenuTacosTrait {
             [
                 'img' => 'img/Productos/Varios.jpg',
                 'name' => 'Taco de carnaza',
-                'price' => '$11.00'
+                'price' => '$15.00'
             ],
             [
                 'img' => 'img/Productos/Varios.jpg',
                 'name' => 'Taco de labio',
-                'price' => '$11.00'
+                'price' => '$15.00'
             ],
             [
                 'img' => 'img/Productos/Varios.jpg',

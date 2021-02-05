@@ -4,12 +4,13 @@ namespace App\Traits;
 use Illuminate\Support\Facades\URL;
 
 trait MetaTagsTrait {
-    public function getMetaTags($description = null)
+    public function getMetaTags($description = '')
     {
-        $description = $description ?? 'Taqueria Raul - Calle Pablo Valdez 3348, Tetlán, 44820 Guadalajara, Jal.';
+        $desc = 'Taqueria Raul - Calle Pablo Valdez 3348, Tetlán, 44820 Guadalajara, Jal. ';
+        $desc .= $description;
         $metaTagsSeo = [];
         $metaTagsSeo['canonical'] = URL::current();
-        $metaTagsSeo['description'] = $description;
+        $metaTagsSeo['description'] = $desc;
         $metaTagsSeo['keywords'] = 'tacos a domicilio, tacos a domicilio cerca de mi, tacos a domicilio cerca de mi ubicacion, 
         tacos en guadalajara, tacos al pastor en guadalajara, tacos en tetlan guadalajara, tacos al pastor,
         taqueria en guadalajara, taqueria en pablo valdez, tacos en pablo valdez, tacos en pablo valdez tetlan';

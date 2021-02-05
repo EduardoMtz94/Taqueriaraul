@@ -1,4 +1,4 @@
-<div class="col-xs-6 col-sm-4 col-md-3 pb-4">
+<div class="col-xs-6 col-sm-4 col-md-3 pb-5 pt-4">
     <div class="card lc-card">
         <img src="{{ $product->img }}" class="card-img-top p-3" alt="{{ $product->name }}">
         <div class="card-body p-3 lc-card-body">

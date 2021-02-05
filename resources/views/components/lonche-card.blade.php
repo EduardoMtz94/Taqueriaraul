@@ -1,4 +1,4 @@
-<div class="col-12 pb-5">
+<div class="col-12 pb-5 pt-4">
     <div class="card lc-card">
         <div class="row no-gutters">
             <div class="col-md-4 p-3">

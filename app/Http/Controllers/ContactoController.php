@@ -11,7 +11,9 @@ class ContactoController extends Controller
 
     public function index()
     {
-        $metaTagsSeo = $this->getMetaTags('Taqueria Raul - Pagina de contacto');
+        $metaTagsSeo = $this->getMetaTags(
+            '- Contactanos mediantes nuestras redes sociales, también, puedes hacer tu pedido en las mismas'
+        );
 
         return view('contacto')
             ->with('metaTagsSeo', (object) $metaTagsSeo);

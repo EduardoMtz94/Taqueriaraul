@@ -17,7 +17,9 @@ class HomeController extends Controller
 
     public function index()
     {
-        $metaTagsSeo = $this->getMetaTags();
+        $metaTagsSeo = $this->getMetaTags(
+            '- Desde hace mas de 40 años, somos representantes de una de las comidas más representativas de México'
+        );
         $tacos = json_decode($this->getTacos());
         $bebidas = json_decode($this->getBebidas());
         $postres = json_decode($this->getPostres());

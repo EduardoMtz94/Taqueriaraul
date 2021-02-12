@@ -88,22 +88,46 @@
 }
 
 @media screen and (max-width:575px) {
+    .lc-header {
+        .lc-head-promo {
+            p {
+                font-size: 1rem;
+            }
+        }
+        .lc-navbar-custom {
+            .container {
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+        }
+    }
     header {
         background-size: cover;
         .lc-height {
-            .lc-haz-tu-pedido {
-                p {
-                    font-size: 1.5rem;
+            .col-sm-12 {
+                padding: 0 2rem !important;
+                h1 {
+                    font-size: 2rem;
                 }
-                .arrow {
-                    width: 2rem;
-                    height: 2rem;
-                    top: 130%;
-                    &::before {
-                        left: 45%;
-                        top: 45%;
+                p {
+                    font-size: 0.8rem;
+                    padding-right: 0;
+                }
+                .lc-haz-tu-pedido {
+                    top: 5rem;
+                    p {
+                        font-size: 1.5rem;
+                    }
+                    .arrow {
                         width: 2rem;
                         height: 2rem;
+                        top: 130%;
+                        &::before {
+                            left: 45%;
+                            top: 45%;
+                            width: 2rem;
+                            height: 2rem;
+                        }
                     }
                 }
             }
@@ -128,8 +152,13 @@
                 .lc-col-card {
                     width: 50%;
                     .lc-card {
-                        border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
+                        border-radius: 0.25rem;
+                        img {
+                            border-radius: 0.5rem;
+                            padding: 0.35rem !important;
+                        }
                         .lc-card-body {
+                            padding: 0 0.35rem 0.35rem 0.35rem !important;
                             p {
                                 font-size: 0.6rem;
                             }
@@ -158,6 +187,16 @@
                         padding-top: 0 !important;
                         .lc-card-body-2 {
                             padding-top: 0;
+                            .d-flex:nth-child(2) {
+                                .dotted {
+                                    width: 36%;
+                                }
+                            }
+                            .d-flex:nth-child(5) {
+                                .dotted {
+                                    width: 39%;
+                                }
+                            }
                         }
                     }
                 }
@@ -232,8 +271,13 @@
                 .lc-col-card {
                     width: 50%;
                     .lc-card {
-                        border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
+                        border-radius: 0.25rem;
+                        img {
+                            border-radius: 0.5rem;
+                            padding: 0.35rem !important;
+                        }
                         .lc-card-body {
+                            padding: 0 0.35rem 0.35rem 0.35rem !important;
                             p {
                                 font-size: 0.6rem;
                             }
@@ -250,8 +294,13 @@
                 .lc-col-card {
                     width: 50%;
                     .lc-card {
-                        border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
+                        border-radius: 0.25rem;
+                        img {
+                            border-radius: 0.5rem;
+                            padding: 0.35rem !important;
+                        }
                         .lc-card-body {
+                            padding: 0 0.35rem 0.35rem 0.35rem !important;
                             p {
                                 font-size: 0.6rem;
                             }

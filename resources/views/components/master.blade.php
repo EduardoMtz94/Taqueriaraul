@@ -40,7 +40,7 @@
             <nav class="navbar navbar-expand-lg lc-navbar-custom" id="lc-navbar">
                 <div class="container">
                     <a href="/" class="navbar-brand">
-                        <img src="{{ asset('img/logo-taqueria-raul.jpeg') }}" alt="Taqueria Raul Logo" height="90">
+                        <img src="{{ asset('img/logo-taqueria-raul.jpeg') }}" id="logo" alt="Taqueria Raul Logo" height="90">
                     </a>
                     <button class="navbar-toggler float-right" id="lc-btn-navbar" type="button"
                         data-toggle="collapse" data-target="#lc-navbar-child" aria-label="hamburguer"

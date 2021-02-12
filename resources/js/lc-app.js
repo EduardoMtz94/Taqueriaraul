@@ -104,5 +104,6 @@ $(document).ready(function() {
         $("#lc-icon-collapse-bebidas").attr("src", "/img/down.svg");
         $("#collapsePostres").removeClass("show");
         $("#lc-icon-collapse-postres").attr("src", "/img/down.svg");
+        $("#logo").attr("height", 50);
     }
 });

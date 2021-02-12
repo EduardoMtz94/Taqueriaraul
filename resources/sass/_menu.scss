@@ -81,7 +81,7 @@
                         margin-bottom: 0 !important;
                     }
                     .dotted {
-                        width: 50%;
+                        width: 63%;
                         border-bottom: 4px dotted rgba(#000000, 0.25);
                         margin-bottom: 0 !important;
                         height: 1rem;
@@ -89,6 +89,36 @@
                     .price {
                         margin-bottom: 0 !important;
                         font-weight: bold;
+                    }
+                    .d-flex:nth-child(1) {
+                        .dotted {
+                            width: 66%;
+                        }
+                    }
+                    .d-flex:nth-child(3) {
+                        .dotted {
+                            width: 61%;
+                        }
+                    }
+                    .d-flex:nth-child(4) {
+                        .dotted {
+                            width: 66%;
+                        }
+                    }
+                    .d-flex:nth-child(6) {
+                        .dotted {
+                            width: 61%;
+                        }
+                    }
+                    .d-flex:nth-child(8) {
+                        .dotted {
+                            width: 66%;
+                        }
+                    }
+                    .d-flex:nth-child(9) {
+                        .dotted {
+                            width: 69%;
+                        }
                     }
                 }
                 .lc-card-body-2 {
@@ -97,7 +127,7 @@
                         margin-bottom: 0 !important;
                     }
                     .dotted {
-                        width: 50%;
+                        width: 65%;
                         border-bottom: 4px dotted rgba(#000000, 0.25);
                         margin-bottom: 0 !important;
                         height: 1rem;
@@ -105,6 +135,31 @@
                     .price {
                         margin-bottom: 0 !important;
                         font-weight: bold;
+                    }
+                    .d-flex:nth-child(1) {
+                        .dotted {
+                            width: 69%;
+                        }
+                    }
+                    .d-flex:nth-child(2) {
+                        .dotted {
+                            width: 51%;
+                        }
+                    }
+                    .d-flex:nth-child(3) {
+                        .dotted {
+                            width: 62%;
+                        }
+                    }
+                    .d-flex:nth-child(4) {
+                        .dotted {
+                            width: 68%;
+                        }
+                    }
+                    .d-flex:nth-child(5) {
+                        .dotted {
+                            width: 54%;
+                        }
                     }
                 }
                 .lc-card-body-3 {

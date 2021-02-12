@@ -25,15 +25,15 @@
                             <h2 class="card-title">Encuentranos en nuestras redes</h2>
                             <div class="d-flex">
                                 <p class="card-text mb-0 pt-1">
-                                    <a href="https://www.facebook.com/CruzverdePabloValdes" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://tinyurl.com/y5l6sb4p" target="_blank" rel="noopener noreferrer">
                                         <img src="img/fb.svg" width="20" class="mr-1" alt="Facebook Taqueria Raul">
                                         Taquer&iacute;a Ra&uacute;l
                                     </a>
                                 </p>
                                 <p class="card-text mb-0 pt-1 pl-5">
-                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://tinyurl.com/yxuoj9c6" target="_blank" rel="noopener noreferrer">
                                         <img src="img/wa.svg" width="20" class="mr-1" alt="Whatsapp Taqueria Raul">
-                                        33 3665 9084
+                                        33 1147 7049
                                     </a>
                                 </p>
                             </div>

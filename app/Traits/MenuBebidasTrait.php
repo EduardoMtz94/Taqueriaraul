@@ -19,7 +19,7 @@ trait MenuBebidasTrait {
                 'firstOptionName' => 'Individual',
                 'firstOptionPrice' => '$18.00',
                 'secondOptionName' => 'Familiar',
-                'secondOptionPrice' => '$00.00'
+                'secondOptionPrice' => '$30.00'
             ],
         ];
         return json_encode($bebidas);

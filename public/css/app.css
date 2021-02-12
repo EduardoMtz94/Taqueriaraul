@@ -10094,9 +10094,12 @@ header .lc-height {
 }
 header .lc-height h1 {
   font-size: 4.25rem;
-  color: #0FA30A;
+  color: #008F39;
   padding-top: 5rem;
   font-family: DreamLand;
+}
+header .lc-height h1 .raul {
+  color: #FF0000;
 }
 header .lc-height p {
   font-family: Arial, Helvetica, sans-serif;
@@ -10220,7 +10223,7 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   margin-bottom: 0 !important;
 }
 .menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-1 .dotted {
-  width: 50%;
+  width: 63%;
   border-bottom: 4px dotted rgba(0, 0, 0, 0.25);
   margin-bottom: 0 !important;
   height: 1rem;
@@ -10229,6 +10232,24 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   margin-bottom: 0 !important;
   font-weight: bold;
 }
+.menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-1 .d-flex:nth-child(1) .dotted {
+  width: 66%;
+}
+.menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-1 .d-flex:nth-child(3) .dotted {
+  width: 61%;
+}
+.menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-1 .d-flex:nth-child(4) .dotted {
+  width: 66%;
+}
+.menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-1 .d-flex:nth-child(6) .dotted {
+  width: 61%;
+}
+.menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-1 .d-flex:nth-child(8) .dotted {
+  width: 66%;
+}
+.menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-1 .d-flex:nth-child(9) .dotted {
+  width: 69%;
+}
 .menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-2 {
   padding-top: 2rem;
 }
@@ -10236,7 +10257,7 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   margin-bottom: 0 !important;
 }
 .menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-2 .dotted {
-  width: 50%;
+  width: 65%;
   border-bottom: 4px dotted rgba(0, 0, 0, 0.25);
   margin-bottom: 0 !important;
   height: 1rem;
@@ -10244,6 +10265,21 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
 .menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-2 .price {
   margin-bottom: 0 !important;
   font-weight: bold;
+}
+.menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-2 .d-flex:nth-child(1) .dotted {
+  width: 69%;
+}
+.menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-2 .d-flex:nth-child(2) .dotted {
+  width: 51%;
+}
+.menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-2 .d-flex:nth-child(3) .dotted {
+  width: 62%;
+}
+.menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-2 .d-flex:nth-child(4) .dotted {
+  width: 68%;
+}
+.menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-2 .d-flex:nth-child(5) .dotted {
+  width: 54%;
 }
 .menu .lc-lonches .lc-lonches-row .lc-card .lc-card-body-3 {
   padding-top: 0 !important;
@@ -10788,18 +10824,39 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   }
 }
 @media screen and (max-width: 575px) {
+  .lc-header .lc-head-promo p {
+    font-size: 1rem;
+  }
+  .lc-header .lc-navbar-custom .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
   header {
     background-size: cover;
   }
-  header .lc-height .lc-haz-tu-pedido p {
+  header .lc-height .col-sm-12 {
+    padding: 0 2rem !important;
+  }
+  header .lc-height .col-sm-12 h1 {
+    font-size: 2rem;
+  }
+  header .lc-height .col-sm-12 p {
+    font-size: 0.8rem;
+    padding-right: 0;
+  }
+  header .lc-height .col-sm-12 .lc-haz-tu-pedido {
+    top: 5rem;
+  }
+  header .lc-height .col-sm-12 .lc-haz-tu-pedido p {
     font-size: 1.5rem;
   }
-  header .lc-height .lc-haz-tu-pedido .arrow {
+  header .lc-height .col-sm-12 .lc-haz-tu-pedido .arrow {
     width: 2rem;
     height: 2rem;
     top: 130%;
   }
-  header .lc-height .lc-haz-tu-pedido .arrow::before {
+  header .lc-height .col-sm-12 .lc-haz-tu-pedido .arrow::before {
     left: 45%;
     top: 45%;
     width: 2rem;
@@ -10825,7 +10882,14 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
     width: 50%;
   }
   .menu .lc-tacos .lc-tacos-row .lc-col-card .lc-card {
-    border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
+    border-radius: 0.25rem;
+  }
+  .menu .lc-tacos .lc-tacos-row .lc-col-card .lc-card img {
+    border-radius: 0.5rem;
+    padding: 0.35rem !important;
+  }
+  .menu .lc-tacos .lc-tacos-row .lc-col-card .lc-card .lc-card-body {
+    padding: 0 0.35rem 0.35rem 0.35rem !important;
   }
   .menu .lc-tacos .lc-tacos-row .lc-col-card .lc-card .lc-card-body p {
     font-size: 0.6rem;
@@ -10850,6 +10914,12 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
   }
   .menu .lc-lonches .lc-lonches-row .lc-card .lc-col-2 .lc-card-body-2 {
     padding-top: 0;
+  }
+  .menu .lc-lonches .lc-lonches-row .lc-card .lc-col-2 .lc-card-body-2 .d-flex:nth-child(2) .dotted {
+    width: 36%;
+  }
+  .menu .lc-lonches .lc-lonches-row .lc-card .lc-col-2 .lc-card-body-2 .d-flex:nth-child(5) .dotted {
+    width: 39%;
   }
   .menu .lc-gringas .lc-gringas-row .lc-card {
     border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
@@ -10907,7 +10977,14 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
     width: 50%;
   }
   .menu .lc-bebidas .lc-bebidas-row .lc-col-card .lc-card {
-    border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
+    border-radius: 0.25rem;
+  }
+  .menu .lc-bebidas .lc-bebidas-row .lc-col-card .lc-card img {
+    border-radius: 0.5rem;
+    padding: 0.35rem !important;
+  }
+  .menu .lc-bebidas .lc-bebidas-row .lc-col-card .lc-card .lc-card-body {
+    padding: 0 0.35rem 0.35rem 0.35rem !important;
   }
   .menu .lc-bebidas .lc-bebidas-row .lc-col-card .lc-card .lc-card-body p {
     font-size: 0.6rem;
@@ -10919,7 +10996,14 @@ header .lc-height .lc-haz-tu-pedido .arrow::before {
     width: 50%;
   }
   .menu .lc-postres .lc-postres-row .lc-col-card .lc-card {
-    border-radius: 1.5rem 1.5rem 1.25rem 1.25rem;
+    border-radius: 0.25rem;
+  }
+  .menu .lc-postres .lc-postres-row .lc-col-card .lc-card img {
+    border-radius: 0.5rem;
+    padding: 0.35rem !important;
+  }
+  .menu .lc-postres .lc-postres-row .lc-col-card .lc-card .lc-card-body {
+    padding: 0 0.35rem 0.35rem 0.35rem !important;
   }
   .menu .lc-postres .lc-postres-row .lc-col-card .lc-card .lc-card-body p {
     font-size: 0.6rem;

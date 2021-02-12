@@ -2,8 +2,8 @@
     <header>
         <div class="container-xl">
             <div class="row lc-height">
-                <div class="col-sm-6 col-md-6 align-self-center">
-                    <h1>TAQUER&Iacute;A RA&Uacute;L</h1>
+                <div class="col-sm-12 col-md-12 col-lg-6 align-self-center">
+                    <h1>TAQUER&Iacute;A <span class="raul">RA&Uacute;L</span></h1>
                     <p>Desde hace mas de 40 a&ntilde;os, somos representantes de una de las comidas m&aacute;s representativas de M&eacute;xico, 
                         nos respalda la calidad en nuestros tacos, adem&aacute;s de un gran sabor que se disfruta en cada mordida. </p>
                     <div class="lc-haz-tu-pedido">

@@ -10012,6 +10012,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.wa-bubble {
+  position: fixed;
+  z-index: 2147483644;
+  bottom: 96px;
+  margin: 0 12px;
+  top: auto;
+  right: 12px;
+}
+
 .lc-header .lc-head-promo {
   background-color: #fff;
 }

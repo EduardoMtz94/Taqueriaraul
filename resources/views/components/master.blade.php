@@ -83,6 +83,11 @@
                 </div>
             </div>
         </section>
+        <div>
+            <a href="https://tinyurl.com/yxuoj9c6" target="_blank" rel="noopener noreferrer">
+                <img src="img/wa.svg" width="60" class="wa-bubble" alt="Whatsapp Bubble Taqueria Raul">
+            </a>
+        </div>
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
         <script>

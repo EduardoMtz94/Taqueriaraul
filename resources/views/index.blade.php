@@ -161,7 +161,9 @@
                         </div>
                         <div class="card-body lc-pedido-card-body">
                             <h5 class="card-title">Paso 1.</h5>
-                            <p class="card-text lc-first-card-text">Ingresa a Facebook, Whatsapp o por t&eacute;lefono</p>
+                            <p class="card-text lc-first-card-text">
+                                Ingresa a Facebook, Whatsapp o por t&eacute;lefono, env&iacute;a un mensaje y sigue las instrucciones.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -172,7 +174,9 @@
                         </div>
                         <div class="card-body lc-pedido-card-body">
                             <h5 class="card-title">Paso 2.</h5>
-                            <p class="card-text">Haz tu pedido</p>
+                            <p class="card-text">
+                                Una vez que nos env&iacute;es tu mensaje nuestro asistente virtual te guiara para realizar tu pedido.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -183,7 +187,9 @@
                         </div>
                         <div class="card-body lc-pedido-card-body">
                             <h5 class="card-title">Paso 3.</h5>
-                            <p class="card-text">Espera tu orden</p>
+                            <p class="card-text">
+                                Espera tu orden, nuestro equipo estar&aacute; pendiente del progreso de tu pedido y te dar&aacute; la informaci&oacute;n necesaria.
+                            </p>
                         </div>
                     </div>
                 </div>

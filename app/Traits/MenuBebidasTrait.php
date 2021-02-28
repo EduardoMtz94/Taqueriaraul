@@ -6,8 +6,16 @@ trait MenuBebidasTrait {
     {
         $bebidas = [
             [
-                'img' => 'img/Productos/Agua-jamaica.jpg',
-                'name' => 'Agua de Jamaica',
+                'img' => 'img/Productos/Agua-orchata.jpg',
+                'name' => 'Agua de Arroz',
+                'firstOptionName' => 'Chica',
+                'firstOptionPrice' => '$15.00',
+                'secondOptionName' => '1 Litro',
+                'secondOptionPrice' => '$22.00'
+            ],
+            [
+                'img' => 'img/Productos/Agua-pina.jpg',
+                'name' => 'Agua de Piña',
                 'firstOptionName' => 'Chica',
                 'firstOptionPrice' => '$15.00',
                 'secondOptionName' => '1 Litro',

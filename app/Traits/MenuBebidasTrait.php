@@ -21,6 +21,14 @@ trait MenuBebidasTrait {
                 'secondOptionName' => 'Familiar',
                 'secondOptionPrice' => '$30.00'
             ],
+            [
+                'img' => 'img/Productos/tepache-taqueria-raul.jpg',
+                'name' => 'Tepache',
+                'firstOptionName' => 'Individual',
+                'firstOptionPrice' => '$15.00',
+                'secondOptionName' => 'Familiar',
+                'secondOptionPrice' => '$22.00'
+            ]
         ];
         return json_encode($bebidas);
     }
